@@ -1,0 +1,26 @@
+﻿@model CategoryDetailVM
+
+<div class="container">
+    <div class="create-category">
+        <a asp-action="Create" class="btn btn-success text-white mb-3 mx-3">Create</a>
+    </div>
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>@Model.CategoryName</td>
+                        <td>
+                            <img src="~/assets/images/@Model.CategoryImage"></img>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

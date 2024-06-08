@@ -1,0 +1,412 @@
+﻿@model HeaderVM
+
+<header>
+    <section id="header-top" class="d-none d-sm-block">
+        <div class="container-main">
+            <div class="row">
+                <div class="d-none d-sm-block col-sm-6">
+                    <div class="left-side">
+                        <img src="~/assets/icons/truck.svg" alt="">
+                        <p>FREE Express Shipping On Orders $570+</p>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block col-sm-6">
+                    <div class="right-side">
+                        <ul>
+                            <li>
+                                <a class="content">English<i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="">Spanish</a></li>
+                                        <li><a href="">Russian</a></li>
+                                        <li><a href="">Portuguese</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="content">USD<i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="">EUR</a></li>
+                                        <li><a href="">CHF</a></li>
+                                        <li><a href="">GBP</a></li>
+                                        <li><a href="">KWD</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="content">Settings<i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="login.html">My Profile</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="">Log out</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="header-mid">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6 col-lg-2">
+                    <div class="logo">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/images/logo.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-block col-sm-6">
+                    <div class="search-area">
+                        <div class="content">
+                            <input type="text" placeholder="Search for Products...">
+                            <div class="line"></div>
+                            <div class="selection">
+                                <a class="selector">Select Category<i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu">
+                                    <ul>
+                                        <li>Select Category</li>
+                                        <li><a href="">Electronics</a></li>
+                                        <li><a href="">Fashion</a></li>
+                                        <li><a href="">Beauty</a></li>
+                                        <li><a href="">Jewelry</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="search-icon">
+                                <img src="~/assets/icons/search-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-block col-lg-2 col-xl-3">
+                    <div class="account d-flex align-items-center flex-column">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-controller="Account" asp-action="Account">
+                                <div class="login-icon">
+                                    <img src="~/assets/icons/login-icon.svg" alt="">
+                                </div>
+                                <div class="content d-lg-none d-xl-block">
+                                    <p>Hello, @Model.UserFullName</p>
+                                    <p>Your Account</p>
+                                </div>
+                            </a>
+                            <form asp-controller="Account" asp-action="LogOut">
+                                <button class="btn btn-secondary btn-sm" type="submit">Log out</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="SignIn">
+                                <div class="login-icon">
+                                    <img src="~/assets/icons/login-icon.svg" alt="">
+                                </div>
+                                <div class="content d-lg-none d-xl-block">
+                                    <p>Hello, Sign In</p>
+                                    <p>Your Account</p>
+                                </div>
+                            </a>
+                        }
+
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2 col-xl-1">
+                    <div class="actions">
+                        <a href="" class="compare d-none d-lg-block">
+                            <img src="~/assets/icons/compare-icon.svg" alt="">
+                        </a>
+                        <a href="wishlist.html" class="wishlist d-none d-lg-block">
+                            <img src="~/assets/icons/wishlist-icon.svg" alt="">
+                            <span class="wishlist-count">0</span>
+                        </a>
+                        <a href="" class="cart">
+                            <img src="~/assets/icons/cart-icon.svg" alt="">
+                            <span class="cart-count">0</span>
+                        </a>
+                        <a href="" class="bars d-lg-none">
+                            <img src="~/assets/icons/bars-icon (2).svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="header-sticky">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-6 col-sm-3 col-xl-2">
+                    <div class="logo">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/images/logo.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="d-none d-sm-block col-sm-7 col-xl-9">
+                    <div class="navbar">
+                        <ul>
+                            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li>
+                                <a href="shop.html" class="products-nav">Products<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="mega-menu">
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Only Categories</a></li>
+                                            <li><a href="shop.html">Shop Grid with Sidebar</a></li>
+                                            <li><a href="shop.html">Shop Grid</a></li>
+                                            <li><a href="">Categories</a></li>
+                                            <li><a href="shop.html">Shop List</a></li>
+                                            <li><a href="product-detail.html">Product Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Product Simple</a></li>
+                                            <li><a href="">With Video</a></li>
+                                            <li><a href="">With Countdown Timer</a></li>
+                                            <li><a href="">Variations Swatches</a></li>
+                                            <li><a href="">List View</a></li>
+                                            <li><a href="">Details Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="">Track Your Order</a></li>
+                                            <li><a href="">Compare</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="">Checkout</a></li>
+                                            <li><a href="login.html">My Account</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="">About</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                            <li><a href="login.html">Forgot Password</a></li>
+                                            <li><a href="">404 Error</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="">Coupons</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2 col-xl-1">
+                    <div class="actions">
+                        <a href="" class="compare d-none d-lg-block">
+                            <img src="~/assets/icons/compare-icon.svg" alt="">
+                        </a>
+                        <a href="wishlist.html" class="wishlist d-none d-lg-block">
+                            <img src="~/assets/icons/wishlist-icon.svg" alt="">
+                            <span class="wishlist-count">0</span>
+                        </a>
+                        <a href="" class="cart">
+                            <img src="~/assets/icons/cart-icon.svg" alt="">
+                            <span class="cart-count">0</span>
+                        </a>
+                        <a href="" class="bars d-lg-none">
+                            <img src="~/assets/icons/bars-icon (2).svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="header-bottom" class="d-none d-lg-block">
+        <div class="container-main">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="all-categories">
+                        <img src="~/assets/icons/bars-icon.svg" alt="">
+                        <span>All Categories</span>
+                        <i class="fa-solid fa-angle-down"></i>
+
+                        <div class="categories d-none">
+                            <ul>
+                                <li><a href=""><img src="~/assets/images/headphone-category.png" alt="">Headphones</a><i class="fa-solid fa-chevron-right"></i></li>
+                                <li><a href=""><img src="~/assets/images/mobile-category.png" alt="">Mobile Tablets</a><i class="fa-solid fa-chevron-right"></i></li>
+                                <li><a href=""><img src="~/assets/images/pc-category.png" alt="">CPU Heat Pipes</a><i class="fa-solid fa-chevron-right"></i></li>
+                                <li><a href=""><img src="~/assets/images/watch-category.png" alt="">Smart Watch</a><i class="fa-solid fa-chevron-right"></i></li>
+                                <li><a href=""><img src="~/assets/images/acces-category.png" alt="">Bluetooth</a><i class="fa-solid fa-chevron-right"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="navbar">
+                        <ul>
+                            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li>
+                                <a href="shop.html" class="products-nav">Products<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="mega-menu">
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Only Categories</a></li>
+                                            <li><a href="shop.html">Shop Grid with Sidebar</a></li>
+                                            <li><a href="shop.html">Shop Grid</a></li>
+                                            <li><a href="">Categories</a></li>
+                                            <li><a href="shop.html">Shop List</a></li>
+                                            <li><a href="product-detail.html">Product Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="product-detail.html">Product Simple</a></li>
+                                            <li><a href="">With Video</a></li>
+                                            <li><a href="">With Countdown Timer</a></li>
+                                            <li><a href="">Variations Swatches</a></li>
+                                            <li><a href="">List View</a></li>
+                                            <li><a href="">Details Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="">Track Your Order</a></li>
+                                            <li><a href="">Compare</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="">Checkout</a></li>
+                                            <li><a href="login.html">My Account</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="" class="mega-menu-title">Shop Page</a>
+                                        <ul class="submenu">
+                                            <li><a href="">About</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                            <li><a href="login.html">Forgot Password</a></li>
+                                            <li><a href="">404 Error</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="">Coupons</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contact">
+                        <img src="~/assets/icons/phone-icon.svg" alt="">
+                        <div class="number">
+                            <p>Hotline:</p>
+                            <a href="">+(402) 763 282 46</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="right-side-menu closed d-block d-lg-none">
+        <div class="row">
+            <div class="col-6">
+                <div class="logo">
+                    <img src="~/assets/images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="close">
+                    <div class="icon">
+                        <img src="~/assets/icons/xmark.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="all-categories">
+                    <span><i class="fa-solid fa-bars"></i>All Categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="categories d-none">
+                    <ul>
+                        <li><a href=""><img src="~/assets/images/headphone-category.png" alt="">Headphones</a><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href=""><img src="~/assets/images/mobile-category.png" alt="">Mobile Tablets</a><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href=""><img src="~/assets/images/pc-category.png" alt="">CPU Heat Pipes</a><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href=""><img src="~/assets/images/watch-category.png" alt="">Smart Watch</a><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href=""><img src="~/assets/images/acces-category.png" alt="">Bluetooth</a><i class="fa-solid fa-chevron-right"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Products</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Products Details</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">eCommerce</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">More Pages</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Coupons</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                            <div class="icon">
+                                <img src="~/assets/icons/chevron-right.svg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="contact-us">
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-12"></div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+</header>

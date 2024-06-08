@@ -1,0 +1,647 @@
+﻿@model ProductDetailVM
+
+@{
+    Layout = "_Header";
+}
+
+@section css{
+    <link rel="stylesheet" href="~/assets/sass/pages/product-detail/product-detail.css">
+}
+
+@section js {
+    <script src="~/assets/js/product-detail.js"></script>
+}
+
+
+<section id="product-detail-header">
+    <div class="container-main">
+        <div class="row">
+            <div class="col-12">
+                <div class="content">
+                    <img src="~/assets/icons/home.svg" alt="">
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                    <a href="">@Model.Category</a>
+                    <span>@Model.ProductName</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product-detail-page">
+    <div class="container-main">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="left-side">
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            <div class="row">
+                                @foreach (var image in Model.ProductImages)
+                                {
+                                    <div class="col-3 col-sm-12">
+                                        <div class="product-image first @(image.IsMain ? "active-image" : "")">
+                                            <img src="~/assets/images/@image.Image" alt="">
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            @foreach (var image in Model.ProductImages)
+                            {
+                                <div class="preview-image first-prev @(image.IsMain ? "active-preview-image" : "")">
+                                    <img src="~/assets/images/@image.Image" alt="">
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="right-side">
+                    <div class="name">
+                        <span>@Model.Category</span>
+                        <h1>@Model.ProductName</h1>
+                    </div>
+                    <div class="reviews">
+                        <span>@Model.Status</span>
+                        <div class="user-ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(3 review)</span>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <p>@Model.ProductDescription</p>
+                    </div>
+                    <div class="price">
+                        @if (Model.DiscountPrice is not null)
+                        {
+                            <span class="old-price">$@Model.Price</span>
+                            <span class="new-price">$<span>@Model.DiscountPrice</span></span>
+                        }
+                        else
+                        {
+                            <span class="new-price">$<span>@Model.Price</span></span>
+                        }
+                    </div>
+                    <div class="color">
+                        <span>Color:</span>
+                        <div class="colors">
+                            <div class="purply-blue"></div>
+                            <div class="light-grey"></div>
+                            <div class="baby-pink"></div>
+                            <div class="bluish-cyan"></div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <span>Quantity</span>
+                        <div class="row">
+                            <div class="col-4 col-sm-3 col-lg-5 col-xl-3">
+                                <div class="count-input">
+                                    <span class="minus"><img src="~/assets/icons/minus.svg" alt=""></span>
+                                    <input type="text" class="product-count-input" value="1" disabled>
+                                    <span class="plus"><img src="~/assets/icons/plus.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-8 col-sm-9 col-lg-7 col-xl-9">
+                                <a href="" class="add-to-cart-preview" data-id="11">Add to cart</a>
+                            </div>
+                            <div class="col-12">
+                                <a href="" class="buy-now">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="share-on-socials">
+                        <span>Share:</span>
+                        <ul>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-x-twitter"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-brands fa-vimeo-v"></i></li>
+                        </ul>
+                    </div>
+                    <div class="delivery-details">
+                        <ul>
+                            <li>30 days easy returns</li>
+                            <li>Order yours before 2.30pm for same day dispatch</li>
+                        </ul>
+                    </div>
+                    <div class="payment">
+                        <span>Guaranteed safe <br>& secure checkout</span>
+                        <img src="~/assets/images/footer-pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="product-details-area">
+    <div class="container-main">
+        <div class="row">
+            <div class="col-12">
+                <div class="details-nav">
+                    <ul>
+                        <li class="description active-nav"><span>Description</span></li>
+                        <li class="info"><span>Additional information</span></li>
+                        <li class="review-tab"><span>Reviews (3)</span></li>
+                    </ul>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="description-content">
+                            <span>@Model.Category</span>
+                            <h1>@Model.ProductName</h1>
+                            <p>@Model.ProductDescription</p>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="additional-information d-none">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Announced</td>
+                                        <td>2023, February</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Colors</td>
+                                        <td>Gray, Black, Moonstone Blue</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Technology</td>
+                                        <td>GSM / HSPA / LTE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3G bands</td>
+                                        <td>HSDPA 800 / 850 / 900 / 1900 / 2100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4G bands</td>
+                                        <td>1, 2, 3, 4, 5, 7, 8, 19, 20, 28, 38, 40, 41</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Graphics Coprocessor</td>
+                                        <td>Exynos 9611, Octa Core (4x2.3GHz + 4x1.7GHz)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wireless Type</td>
+                                        <td>802.11a/b/g/n/ac, Bluetooth</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="reviews-area d-none">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="customer-reviews">
+                                        <h4>Customer reviews</h4>
+                                        <div class="review-count">
+                                            <h1>4.5</h1>
+                                            <div class="user-ratings">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>(2 reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="rating-list">
+                                            <div class="rating-bars five-star">
+                                                <span class="star">5 Star</span>
+                                                <div class="rating-bar">
+                                                    <span></span>
+                                                </div>
+                                                <span class="percent">82%</span>
+                                            </div>
+                                            <div class="rating-bars four-star">
+                                                <span class="star">4 Star</span>
+                                                <div class="rating-bar">
+                                                    <span></span>
+                                                </div>
+                                                <span class="percent">30%</span>
+                                            </div>
+                                            <div class="rating-bars three-star">
+                                                <span class="star">3 Star</span>
+                                                <div class="rating-bar">
+                                                    <span></span>
+                                                </div>
+                                                <span class="percent">15%</span>
+                                            </div>
+                                            <div class="rating-bars two-star">
+                                                <span class="star">2 Star</span>
+                                                <div class="rating-bar">
+                                                    <span></span>
+                                                </div>
+                                                <span class="percent">6%</span>
+                                            </div>
+                                            <div class="rating-bars one-star">
+                                                <span class="star">1 Star</span>
+                                                <div class="rating-bar">
+                                                    <span></span>
+                                                </div>
+                                                <span class="percent">10%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments">
+                                        <h4>Rating & Review</h4>
+                                        <div class="comment">
+                                            <div class="image">
+                                                <img src="~/assets/images/user-3.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="user-name">John Doe</span>
+                                                <span class="date">06 March, 2023</span>
+                                                <p>Designed very similarly to the nearly double priced Galaxy tab S6, with the only removal being.</p>
+                                            </div>
+                                        </div>
+                                        <div class="comment">
+                                            <div class="image">
+                                                <img src="~/assets/images/user-2.jpg" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <div class="user-ratings">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="user-name">Smith Doe</span>
+                                                <span class="date">07 March, 2023</span>
+                                                <p>Designed very similarly to the nearly double priced Galaxy tab S6, with the only removal being.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-area">
+                                        <div class="header">
+                                            <h4>Review this product</h4>
+                                            <p>Your email address will not be published. Required fields are marked *</p>
+                                            <div class="user-ratings">
+                                                <span>Your Rating:</span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="input-area">
+                                            <label for="message">Your Message</label>
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your review here"></textarea>
+                                        </div>
+                                        <div class="input-area">
+                                            <label for="name">Your Name</label>
+                                            <input type="text" id="name" name="name" placeholder="Shahnewaz Sakil">
+                                        </div>
+                                        <div class="input-area">
+                                            <label for="email">Your Email</label>
+                                            <input type="text" id="email" name="email" placeholder="shofy@mail.com">
+                                        </div>
+                                        <div class="checkbox">
+                                            <input class="d-none" type="checkbox" id="demoCheckbox" name="checkbox" value="1">
+                                            <label for="demoCheckbox">Save my name, email, and website in this browser for the next time I comment.</label>
+                                        </div>
+                                        <div class="submit">
+                                            <button>Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="related-products">
+    <div class="container-main">
+        <div class="row">
+            <div class="col-12">
+                <div class="header">
+                    <span>Next Day Products</span>
+                    <h1>Related Products</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="product" data-id="1">
+                        <div class="image">
+                            <a href="product-detail.html"><img src="~/assets/images/headphone-1.png" alt=""></a>
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-to-cart">
+                                            <img src="~/assets/icons/add-to-cart.svg" alt="">
+                                            <span class="tooltip-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="product-details" data-bs-toggle="modal" data-bs-target="#id1">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tooltip-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-to-wishlist">
+                                            <img src="~/assets/icons/add-to-wishlist.svg" alt="">
+                                            <span class="tooltip-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-discount">
+                                <span>10%</span>
+                            </div>
+                            <div class="add-to-cart-action">
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Headphones</a>
+                            <a href="" class="product-name">Headphones Wireless</a>
+                            <div class="price">
+                                <span class="old-price">$120</span>
+                                <span class="new-price">$<span>103.20</span></span>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="id1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="close" data-bs-dismiss="modal" aria-label="Close"><img src="~/assets/icons/xmark.svg" alt=""></div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-7 col-xl-6">
+                                                <div class="left-side">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-2">
+                                                            <div class="row">
+                                                                <div class="col-3 col-sm-12">
+                                                                    <div class="product-image first active-image">
+                                                                        <img src="~/assets/images/headphone-1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3 col-sm-12">
+                                                                    <div class="product-image second">
+                                                                        <img src="~/assets/images/headphone-2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3 col-sm-12">
+                                                                    <div class="product-image third">
+                                                                        <img src="~/assets/images/headphone-3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3 col-sm-12">
+                                                                    <div class="product-image fourth">
+                                                                        <img src="~/assets/images/headphone-4.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-10">
+                                                            <div class="preview-image first-prev active-preview-image">
+                                                                <img src="~/assets/images/headphone-1.png" alt="">
+                                                            </div>
+                                                            <div class="preview-image second-prev">
+                                                                <img src="~/assets/images/headphone-2.png" alt="">
+                                                            </div>
+                                                            <div class="preview-image third-prev">
+                                                                <img src="~/assets/images/headphone-3.png" alt="">
+                                                            </div>
+                                                            <div class="preview-image fourth-prev">
+                                                                <img src="~/assets/images/headphone-4.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 col-xl-6">
+                                                <div class="right-side">
+                                                    <div class="name">
+                                                        <span>Headphones</span>
+                                                        <h1>Headphones Wireless</h1>
+                                                    </div>
+                                                    <div class="reviews">
+                                                        <span>in-stock</span>
+                                                        <div class="user-ratings">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <span>(3 review)</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p>Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$120</span>
+                                                        <span class="new-price">$<span>103.20</span></span>
+                                                    </div>
+                                                    <div class="color">
+                                                        <span>Color:</span>
+                                                        <div class="colors">
+                                                            <div class="purply-blue"></div>
+                                                            <div class="light-grey"></div>
+                                                            <div class="baby-pink"></div>
+                                                            <div class="bluish-cyan"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="actions">
+                                                        <span>Quantity</span>
+                                                        <div class="row">
+                                                            <div class="col-4 col-sm-3 col-lg-5 col-xl-3">
+                                                                <div class="count-input">
+                                                                    <span class="minus"><img src="~/assets/icons/minus.svg" alt=""></span>
+                                                                    <input type="text" class="product-count-input" value="1" disabled>
+                                                                    <span class="plus"><img src="~/assets/icons/plus.svg" alt=""></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-8 col-sm-9 col-lg-7 col-xl-9">
+                                                                <a href="" class="add-to-cart-preview" data-id="1">Add to cart</a>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <a href="" class="buy-now">Buy Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="product" data-id="2">
+                        <div class="image">
+                            <a href="product-detail.html"><img src="~/assets/images/headphone-blue.png" alt=""></a>
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="add-to-cart">
+                                            <img src="~/assets/icons/add-to-cart.svg" alt="">
+                                            <span class="tooltip-text">Add to Cart</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="product-details" data-bs-toggle="modal" data-bs-target="#id2">
+                                            <img src="~/assets/icons/product-details.svg" alt="">
+                                            <span class="tooltip-text">Quick View</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="add-to-wishlist">
+                                            <img src="~/assets/icons/add-to-wishlist.svg" alt="">
+                                            <span class="tooltip-text">Add to Wishlist</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-discount">
+                                <span>15%</span>
+                            </div>
+                            <div class="add-to-cart-action">
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="" class="card-product-category">Headphones</a>
+                            <a href="" class="product-name">Gaming Headphone</a>
+                            <div class="price">
+                                <span class="old-price">$130</span>
+                                <span class="new-price">$<span>123.50</span></span>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="id2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="close" data-bs-dismiss="modal" aria-label="Close"><img src="~/assets/icons/xmark.svg" alt=""></div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-7 col-xl-6">
+                                                <div class="left-side">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-2">
+                                                            <div class="row">
+                                                                <div class="col-4 col-sm-12">
+                                                                    <div class="product-image first active-image">
+                                                                        <img src="~/assets/images/headphone-blue.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4 col-sm-12">
+                                                                    <div class="product-image second">
+                                                                        <img src="~/assets/images/id2-2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4 col-sm-12">
+                                                                    <div class="product-image third">
+                                                                        <img src="~/assets/images/id2-3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-10">
+                                                            <div class="preview-image first-prev active-preview-image">
+                                                                <img src="~/assets/images/headphone-blue.png" alt="">
+                                                            </div>
+                                                            <div class="preview-image second-prev">
+                                                                <img src="~/assets/images/id2-2.png" alt="">
+                                                            </div>
+                                                            <div class="preview-image third-prev">
+                                                                <img src="~/assets/images/id2-3.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-5 col-xl-6">
+                                                <div class="right-side">
+                                                    <div class="name">
+                                                        <span>Headphones</span>
+                                                        <h1>Gaming Headphone</h1>
+                                                    </div>
+                                                    <div class="reviews">
+                                                        <span>in-stock</span>
+                                                        <div class="user-ratings">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <span>(2 review)</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p>Jabra Evolve2 75 USB-A MS Teams Stereo Headset The Jabra Evolve2 75 USB-A MS Teams Stereo Headset</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$130</span>
+                                                        <span class="new-price">$<span>123.20</span></span>
+                                                    </div>
+                                                    <div class="color">
+                                                        <span>Color:</span>
+                                                        <div class="colors">
+                                                            <div class="purply-blue"></div>
+                                                            <div class="dark-grey"></div>
+                                                            <div class="orange"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="actions">
+                                                        <span>Quantity</span>
+                                                        <div class="row">
+                                                            <div class="col-4 col-sm-3 col-lg-5 col-xl-3">
+                                                                <div class="count-input">
+                                                                    <span class="minus"><img src="~/assets/icons/minus.svg" alt=""></span>
+                                                                    <input type="text" class="product-count-input" value="1" disabled>
+                                                                    <span class="plus"><img src="~/assets/icons/plus.svg" alt=""></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-8 col-sm-9 col-lg-7 col-xl-9">
+                                                                <a href="" class="add-to-cart-preview" data-id="2">Add to cart</a>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <a href="" class="buy-now">Buy Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

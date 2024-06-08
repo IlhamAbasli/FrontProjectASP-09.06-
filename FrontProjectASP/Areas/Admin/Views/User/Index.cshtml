@@ -1,0 +1,50 @@
+﻿@model List<UserRoleVM>
+
+<div class="container">
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (User.IsInRole("SuperAdmin"))
+        {
+            <div class="create-category">
+                <a asp-action="AddRole" class="btn btn-success text-white mb-3 mx-3">Add role</a>
+            </div>
+        }
+    }
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <thead>
+                <tr>
+                    <th>Fullname</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Roles</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.FullName</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Email</td>
+                        <td>@item.Roles</td>
+@*                         <td>
+                            <a class="btn btn-info text-white" asp-route-id="@item.CategoryId" asp-action="Detail">Info</a>
+                            <a class="btn btn-warning text-white" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                if (User.IsInRole("SuperAdmin"))
+                                {
+                                    <form asp-action="Delete" asp-route-id="@item.CategoryId" class="d-inline" method="post">
+                                        <button type="submit" class="btn btn-danger text-white">Delete</button>
+                                    </form>
+                                }
+                            }
+                        </td> *@
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

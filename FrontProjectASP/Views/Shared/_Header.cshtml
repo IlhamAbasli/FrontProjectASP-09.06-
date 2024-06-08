@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Details Page</title>
+    <link rel="icon" href="~/assets/icons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    @RenderSection("css",false)
+</head>
+<body>
+    <header>
+        <section id="header-top" class="d-none d-sm-block">
+            <div class="container-main">
+                <div class="row">
+                    <div class="d-none d-sm-block col-sm-6">
+                        <div class="left-side">
+                            <ul>
+                                <li><i class="fa-brands fa-facebook-f"></i><a href="">7500K  Followers</a></li>
+                                <li><i class="fa-solid fa-phone-volume"></i><a href="">+(402) 763 282 46</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block col-sm-6">
+                        <div class="right-side">
+                            <ul>
+                                <li>
+                                    <a class="content">English<i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="menu">
+                                        <ul>
+                                            <li><a href="">Spanish</a></li>
+                                            <li><a href="">Russian</a></li>
+                                            <li><a href="">Portuguese</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="content">USD<i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="menu">
+                                        <ul>
+                                            <li><a href="">EUR</a></li>
+                                            <li><a href="">CHF</a></li>
+                                            <li><a href="">GBP</a></li>
+                                            <li><a href="">KWD</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="content">Settings<i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="menu">
+                                        <ul>
+                                            <li><a href="login.html">My Profile</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="">Log out</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="right-side-menu closed d-block d-lg-none">
+            <div class="row">
+                <div class="col-6">
+                    <div class="logo">
+                        <img src="~/assets/images/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="close">
+                        <div class="icon">
+                            <img src="~/assets/icons/xmark.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="all-categories">
+                        <span><i class="fa-solid fa-bars"></i>All Categories</span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="categories d-none">
+                        <ul>
+                            <li><a href=""><img src="~/assets/images/headphone-category.png" alt="">Headphones</a><i class="fa-solid fa-chevron-right"></i></li>
+                            <li><a href=""><img src="~/assets/images/mobile-category.png" alt="">Mobile Tablets</a><i class="fa-solid fa-chevron-right"></i></li>
+                            <li><a href=""><img src="~/assets/images/pc-category.png" alt="">CPU Heat Pipes</a><i class="fa-solid fa-chevron-right"></i></li>
+                            <li><a href=""><img src="~/assets/images/watch-category.png" alt="">Smart Watch</a><i class="fa-solid fa-chevron-right"></i></li>
+                            <li><a href=""><img src="~/assets/images/acces-category.png" alt="">Bluetooth</a><i class="fa-solid fa-chevron-right"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="navbar">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Products</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Products Details</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">eCommerce</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">More Pages</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Coupons</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                                <div class="icon">
+                                    <img src="~/assets/icons/chevron-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="contact-us">
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-12"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="header-sticky">
+            <div class="container-main">
+                <div class="row">
+                    <div class="col-6 col-sm-5 col-xl-2">
+                        <div class="logo">
+                            <a asp-controller="Home" asp-action="Index"><img src="~/assets/images/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-xl-block col-xl-5">
+                        <div class="navbar">
+                            <ul>
+                                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li><a href="">Shop</a></li>
+                                <li>
+                                    <a href="" class="products-nav">Products<i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="mega-menu">
+                                        <li class="has-dropdown">
+                                            <a href="" class="mega-menu-title">Shop Page</a>
+                                            <ul class="submenu">
+                                                <li><a href="">Only Categories</a></li>
+                                                <li><a href="shop.html">Shop Grid with Sidebar</a></li>
+                                                <li><a href="shop.html">Shop Grid</a></li>
+                                                <li><a href="">Categories</a></li>
+                                                <li><a href="shop.html">Shop List</a></li>
+                                                <li><a href="product-detail.html">Product Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="" class="mega-menu-title">Shop Page</a>
+                                            <ul class="submenu">
+                                                <li><a href="">Product Simple</a></li>
+                                                <li><a href="">With Video</a></li>
+                                                <li><a href="">With Countdown Timer</a></li>
+                                                <li><a href="">Variations Swatches</a></li>
+                                                <li><a href="">List View</a></li>
+                                                <li><a href="">Details Gallery</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="" class="mega-menu-title">Shop Page</a>
+                                            <ul class="submenu">
+                                                <li><a href="cart.html">Shopping Cart</a></li>
+                                                <li><a href="">Track Your Order</a></li>
+                                                <li><a href="">Compare</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="">Checkout</a></li>
+                                                <li><a href="login.html">My Account</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="" class="mega-menu-title">Shop Page</a>
+                                            <ul class="submenu">
+                                                <li><a href="">About</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="register.html">Register</a></li>
+                                                <li><a href="login.html">Forgot Password</a></li>
+                                                <li><a href="">404 Error</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Coupons</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-sm-block col-sm-5 col-xl-4">
+                        <div class="search-input">
+                            <input type="text" placeholder="Search for Products...">
+                            <img src="~/assets/icons/magnfying.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-2 col-xl-1">
+                        <div class="actions">
+                            <a href="" class="compare d-none d-lg-block">
+                                <img src="~/assets/icons/compare-icon.svg" alt="">
+                            </a>
+                            <a href="wishlist.html" class="wishlist d-none d-lg-block">
+                                <img src="~/assets/icons/wishlist-icon.svg" alt="">
+                                <span class="wishlist-count">0</span>
+                            </a>
+                            <a href="" class="cart">
+                                <img src="~/assets/icons/cart-icon.svg" alt="">
+                                <span class="cart-count">0</span>
+                            </a>
+                            <a href="" class="bars d-lg-none">
+                                <img src="~/assets/icons/bars-icon (2).svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="mini-cart closed-cart">
+            <div class="cart-mini">
+                <div class="cart-mini-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="header">
+                                <h1>Shopping Cart</h1>
+                                <img src="~/assets/icons/xmark.svg" alt="" class="close-mini-cart">
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="row row-gap-2 mini-products">
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="total-price">
+                                <h1>Subtotal:</h1>
+                                <span class="total">$<span></span></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="view-cart">
+                                <a href="cart.html">View Cart</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="checkout">
+                                <a href="">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-mini-empty d-none">
+                    <img src="~/assets/images/empty-cart.png" alt="">
+                    <h1>Your Cart is empty</h1>
+                    <a href="shop.html">Go to Shop</a>
+                </div>
+            </div>
+
+            <div class="overlay">
+            </div>
+        </div>
+
+
+        <section id="back-to-top-btn">
+            <a id="button">
+                <img src="~/assets/icons/chevron-up.svg" alt="">
+            </a>
+        </section>
+        @RenderBody()
+        <footer>
+            <section id="footer-top">
+                <div class="container-main">
+                    <div class="row row-gap-5">
+                        <div class="col-12 col-sm-4 col-lg-3 col-xl-4">
+                            <div class="left-side">
+                                <div class="image">
+                                    <img src="~/assets/images/logo.svg" alt="">
+                                </div>
+                                <p>We are a team of designers and developers that create high quality WordPress</p>
+                                <div class="socials">
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-3 col-xl-2">
+                            <div class="my-account">
+                                <ul>
+                                    <h6>My Account</h6>
+                                    <li><a href="">Track Orders</a></li>
+                                    <li><a href="">Shipping</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                    <li><a href="">My Account</a></li>
+                                    <li><a href="">Order History</a></li>
+                                    <li><a href="">Returns</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-3 col-xl-3">
+                            <div class="information">
+                                <ul>
+                                    <h6>Information</h6>
+                                    <li><a href="">Our Story</a></li>
+                                    <li><a href="">Careers</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a href="">Latest News</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-3 col-xl-3">
+                            <div class="contact-us">
+                                <h6>Talk To Us</h6>
+                                <span>Got Questions? Call us</span>
+                                <a href="" class="number">+670 413 90 762</a>
+                                <a href="" class="email"><img src="~/assets/icons/email.svg" alt="">shofy@support.com</a>
+                                <a href="" class="address"><img src="~/assets/icons/location.svg" alt="">79 Sleepy Hollow St. <br>Jamaica, New York 1432</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="footer-bottom">
+                <div class="container-main">
+                    <div class="bottom">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <p>© 2024 All Rights Reserved | Angular Template by Themepure.</p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="payments">
+                                    <img src="~/assets/images/footer-pay.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+
+
+
+
+
+
+        <script src="https://kit.fontawesome.com/83dcd321a4.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        @RenderSection("js",false)
+</body>
+</html>

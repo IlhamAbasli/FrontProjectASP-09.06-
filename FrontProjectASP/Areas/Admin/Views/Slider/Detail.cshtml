@@ -1,0 +1,25 @@
+﻿@model SliderDetailVM
+
+<div class="container">
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="~/assets/images/@Model.Image" style="border: 1px solid black" /></td>
+                    <td>@Model.Title</td>
+                    <td>@Model.Name</td>
+                    <td>@Model.Description</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

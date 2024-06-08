@@ -1,0 +1,37 @@
+﻿@model ProductCreateVM
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <strong>Create</strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input asp-for="Name" class="form-control mt-3" placeholder="Name"> 
+                    <span class="text-danger" asp-validation-for="Name"></span>
+
+                    <input asp-for="Description" class="form-control mt-3" placeholder="Description">
+                    <span class="text-danger" asp-validation-for="Description"></span>
+
+                    <input asp-for="Price" class="form-control mt-3" type="number" min="0" step="any" placeholder="Price">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+
+                    <select class="form-control mt-3" asp-for="CategoryId" asp-items="@ViewBag.categories"></select>
+
+
+                    <input asp-for="ProductImages" class="form-control mt-3">
+                    <span class="text-danger" asp-validation-for="ProductImages"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Submit
+                </button>
+                <a type="reset" asp-action="Index" class="btn btn-danger btn-sm">
+                    <i class="fa fa-ban"></i> Reset
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+

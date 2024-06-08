@@ -1,0 +1,94 @@
+﻿@model RegisterVM
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Shared/_Header.cshtml";
+}
+
+@section css {
+    <link rel="stylesheet" href="~/assets/sass/pages/register/register.css">
+}
+
+@section js {
+    <script src="~/assets/js/cart.js"></script>
+}
+
+<section id="login-header">
+    <div class="container-main">
+        <div class="content">
+            <h1>My Account</h1>
+            <a href="home.html">Home</a>
+            <span>My Account</span>
+        </div>
+    </div>
+</section>
+
+
+<section id="login-area">
+    <div class="container-main">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <div class="login-area text-center">
+                    <div class="login-header">
+                        <h1>Sign Up Shofy.</h1>
+                        <p>Already have an account? <a href="login.html">Sign In</a></p>
+                    </div>
+                    <div class="social-login">
+                        <ul>
+                            <li><img src="~/assets/images/google.svg" alt="">Sign up with Google</li>
+                            <li><img src="~/assets/images/facebook.svg" alt=""></li>
+                            <li><img src="~/assets/images/apple.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="mail-login-header">
+                        <p>or Sign up with <a href="">Email</a></p>
+                        <div class="line"></div>
+                    </div>
+                    <form method="post" class="login-side" asp-controller="Account" asp-action="SignUp">
+                        <div class="input-area">
+                            <label for="name">Your username</label>
+                            <input asp-for="UserName" id="name" placeholder="Username">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="input-area">
+                            <label for="name">Your name</label>
+                            <input asp-for="FullName" id="name" placeholder="Ilham Abaslı">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="input-area">
+                            <label for="email">Your email</label>
+                            <input asp-for="Email" type="text" id="email" placeholder="shofy@gmail.com">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+
+                        </div>
+                        <div class="input-area">
+                            <label for="password">Password</label>
+                            <input asp-for="Password" id="password" name="password" placeholder="Min. 6 character">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+
+                        </div>
+                        <div class="input-area">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input asp-for="ConfirmPassword" id="confirmPassword" placeholder="Enter password again">
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="checkbox">
+                            <input class="d-none" type="checkbox" id="demoCheckbox" name="checkbox" value="1">
+                            <label for="demoCheckbox">I accept the terms of the Service & Privacy Policy.</label>
+                        </div>
+                        <div class="login">
+                            <button type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                    <div class="text-danger mt-3" asp-validation-summary="ModelOnly"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-shape d-none d-lg-block">
+        <img src="~/assets/images/login-shape-1.png" alt="" class="shape1">
+        <img src="~/assets/images/login-shape-2.png" alt="" class="shape2">
+        <img src="~/assets/images/login-shape-3.png" alt="" class="shape3">
+        <img src="~/assets/images/login-shape-4.png" alt="" class="shape4">
+    </div>
+</section>
+

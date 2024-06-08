@@ -1,0 +1,2109 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\css\\font-face.css",
+      "PackagePath": "staticwebassets\\admin\\css\\font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\css\\theme.css",
+      "PackagePath": "staticwebassets\\admin\\css\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-100italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-200italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-600italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-900italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\bg-title-01.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\bg-title-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\bg-title-02.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\bg-title-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\Untitled-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\Untitled-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-02.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-03.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-04.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-05.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-06.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\avatar-big-01.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\avatar-big-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\logo-blue.png",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\logo-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\logo-mini.png",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\logo-mini.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\logo-white.png",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\js\\ProductEdit.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ProductEdit.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\admin\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\js\\moment.js",
+      "PackagePath": "staticwebassets\\admin\\js\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\media\\9606031aabebde32fa96edeff071a132.jpg",
+      "PackagePath": "staticwebassets\\admin\\media\\9606031aabebde32fa96edeff071a132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\animsition\\animsition.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\animsition\\animsition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\animsition\\animsition.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\animsition\\animsition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\bootstrap-4.1\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\bootstrap-4.1\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\bootstrap-4.1\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\bootstrap-4.1\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\bootstrap-4.1\\popper.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\bootstrap-4.1\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\bootstrap-progressbar\\bootstrap-progressbar-3.3.4.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\bootstrap-progressbar\\bootstrap-progressbar-3.3.4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\bootstrap-progressbar\\bootstrap-progressbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\bootstrap-progressbar\\bootstrap-progressbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\chartjs\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\chartjs\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\circle-progress\\circle-progress.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\circle-progress\\circle-progress.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\circle-progress\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\circle-progress\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\countdown\\countdowntime.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\countdown\\countdowntime.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\countdown\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\countdown\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\countdown\\moment-timezone-with-data.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\countdown\\moment-timezone-with-data.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\countdown\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\countdown\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\countdown\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\countdown\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\counter-up\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\counter-up\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\counter-up\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\counter-up\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\counter-up\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\counter-up\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\font-awesome-5\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\README.txt",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\gcal.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\gcal.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\gcal.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale-all.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\be.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\be.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\images\\close.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\images\\next.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\images\\prev.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\dist\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\images\\close.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\images\\next.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\images\\prev.png",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\lightbox2\\src\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\lightbox2\\src\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\progressbar\\progressbar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\progressbar\\progressbar.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\progressbar\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\progressbar\\progressbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\admin\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\smk-accordion\\accordion.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\smk-accordion\\accordion.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\smk-accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\smk-accordion\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\smk-accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\smk-accordion\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.brazil.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.brazil.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.france.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.france.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.germany.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.germany.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.russia.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.russia.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\wow\\animate.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\wow\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\admin\\vendor\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\fonts\\Jost-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Jost-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\fonts\\Jost-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Jost-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\fonts\\Oregano-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Oregano-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\fonts\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\add-to-cart.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\add-to-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\add-to-wishlist.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\add-to-wishlist.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\bars-icon (2).svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\bars-icon (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\bars-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\bars-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\cart-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\cart-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\category-line.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\category-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\check.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\check.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\chevron-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\chevron-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\chevron-up.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\chevron-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\compare-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\compare-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\compare.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\compare.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\cross-out.png",
+      "PackagePath": "staticwebassets\\assets\\icons\\cross-out.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\email.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\email.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\feature-currence.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\feature-currence.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\feature-disc.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\feature-disc.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\feature-support.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\feature-support.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\feature-truck.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\feature-truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\home.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\location.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\location.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\login-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\login-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\magnfying.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\magnfying.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\minus.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\offer-line-red.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\offer-line-red.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\offer-line.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\offer-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\phone-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\phone-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\plus.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\product-details.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\product-details.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\product-line.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\product-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\search-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\shop-grid-1.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\shop-grid-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\shop-grid-2.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\shop-grid-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\shop-now.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\shop-now.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\truck.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\wishlist-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\wishlist-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\icons\\xmark.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\xmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\0370d3e2-d422-4c63-ae03-5498d86bc06a-headphone-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\0370d3e2-d422-4c63-ae03-5498d86bc06a-headphone-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\03bbe202-05e1-40fe-b0e6-32876f11c5d0-id2-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\03bbe202-05e1-40fe-b0e6-32876f11c5d0-id2-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\0f983dbd-dba8-4dec-b437-44040dfa0258-id4-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\0f983dbd-dba8-4dec-b437-44040dfa0258-id4-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\1eb6d162-f3b4-49b7-a04a-f1320422e16e-id3-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\1eb6d162-f3b4-49b7-a04a-f1320422e16e-id3-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\29a74e31-bfd7-458b-b4ec-9ff4c6cfd05a-headphone-blue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\29a74e31-bfd7-458b-b4ec-9ff4c6cfd05a-headphone-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\2aaa57ad-19c2-4899-8719-acb89abdeafb-id4-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\2aaa57ad-19c2-4899-8719-acb89abdeafb-id4-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\42927241-1e84-450d-87ae-06525a8ee7aa-pc-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\42927241-1e84-450d-87ae-06525a8ee7aa-pc-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\4599374e-c50d-4e48-b37b-5110ce4ac9d9-id2-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\4599374e-c50d-4e48-b37b-5110ce4ac9d9-id2-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\527784e8-6a82-4c67-bab9-c33f53dea613-headphone-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\527784e8-6a82-4c67-bab9-c33f53dea613-headphone-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\57373c1d-54d3-4946-8cc3-fc8be4f3563b-mobile-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\57373c1d-54d3-4946-8cc3-fc8be4f3563b-mobile-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\59c81ec3-254d-48c3-8fc3-29645dc2e304-id5-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\59c81ec3-254d-48c3-8fc3-29645dc2e304-id5-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\5eda79b2-f3f4-41f1-9cc2-67f538b895a5-id4-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\5eda79b2-f3f4-41f1-9cc2-67f538b895a5-id4-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\6226cd90-4117-41c7-9f55-02f1118077c5-id4-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\6226cd90-4117-41c7-9f55-02f1118077c5-id4-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\69a2689f-016e-488a-82bc-874c7fc4b1e7-headphone-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\69a2689f-016e-488a-82bc-874c7fc4b1e7-headphone-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\7a014244-72c5-44ad-aaa4-71fdd2c648e8-headphone-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\7a014244-72c5-44ad-aaa4-71fdd2c648e8-headphone-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\9134aa5c-0591-4fec-a930-04b98312dca9-id5-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\9134aa5c-0591-4fec-a930-04b98312dca9-id5-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\95c23e09-f6b3-4e39-b2f0-e77782c45ff2-mobile-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\95c23e09-f6b3-4e39-b2f0-e77782c45ff2-mobile-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\9a293e59-0f00-454a-bb28-1f9f9d128f3a-headphone-jbl.png",
+      "PackagePath": "staticwebassets\\assets\\images\\9a293e59-0f00-454a-bb28-1f9f9d128f3a-headphone-jbl.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\9d6dad88-92dc-4c8b-b8a6-9ed0c6e311ca-headphone-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\9d6dad88-92dc-4c8b-b8a6-9ed0c6e311ca-headphone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\9ed24092-d215-49dd-b164-5c4156f1bc3f-headphone-blue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\9ed24092-d215-49dd-b164-5c4156f1bc3f-headphone-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\a24d8d1e-6300-4282-9514-82a8d429236c-id3-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\a24d8d1e-6300-4282-9514-82a8d429236c-id3-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\acba5400-e7eb-4f70-a910-d59e2ec4777a-id2-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\acba5400-e7eb-4f70-a910-d59e2ec4777a-id2-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\acces-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\acces-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\adecf7bb-d703-4b67-9166-8b40800ba145-mobile-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\adecf7bb-d703-4b67-9166-8b40800ba145-mobile-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\ae774fce-ebe9-4f72-b393-ae70b069192e-headphone-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ae774fce-ebe9-4f72-b393-ae70b069192e-headphone-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\apple.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\b4da2f20-fcd0-4d0f-9032-c771ccf86eeb-id4-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\b4da2f20-fcd0-4d0f-9032-c771ccf86eeb-id4-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\banner-blog.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\bc183cb1-2636-40e4-912b-07b0bf3b9690-headphone-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bc183cb1-2636-40e4-912b-07b0bf3b9690-headphone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\bea23a15-725d-48eb-a23a-d8e9d207c8bf-id2-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bea23a15-725d-48eb-a23a-d8e9d207c8bf-id2-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-big-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-big-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-big-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-big-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-big-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-big-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-grid-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-grid-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-grid-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-grid-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blog-grid-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-grid-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\blutooth-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blutooth-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-5.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-6.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-7.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\brand-8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand-8.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\c7c1d068-a3eb-42b4-ad41-5d3614de5613-id4-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\c7c1d068-a3eb-42b4-ad41-5d3614de5613-id4-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\check.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\check.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\contact-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\contact-icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\contact-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\cpu-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cpu-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\cpu-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cpu-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\cpu-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cpu-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\cpu-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cpu-5.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\dbb68349-336c-4d41-8a54-f480d61765bc-headphone-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dbb68349-336c-4d41-8a54-f480d61765bc-headphone-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\e02a64ce-139a-4c29-af0c-66ddecca8fc1-acces-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\e02a64ce-139a-4c29-af0c-66ddecca8fc1-acces-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\e1ab5d7e-e384-4bdd-b92b-a411f11caec0-id5-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\e1ab5d7e-e384-4bdd-b92b-a411f11caec0-id5-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\e657f881-50e3-4c9b-94ca-e6b6d348a57b-headphone-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\e657f881-50e3-4c9b-94ca-e6b6d348a57b-headphone-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\empty-cart.png",
+      "PackagePath": "staticwebassets\\assets\\images\\empty-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\f87f403c-f3c9-4289-8b17-e57e5c117640-watch-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\f87f403c-f3c9-4289-8b17-e57e5c117640-watch-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\f981d76d-650b-42de-af3f-c2cd9450175a-mobile-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\f981d76d-650b-42de-af3f-c2cd9450175a-mobile-5.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\footer-pay.png",
+      "PackagePath": "staticwebassets\\assets\\images\\footer-pay.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\gadget-banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gadget-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\gadget-girl.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gadget-girl.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\garmin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\garmin.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-blue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\headphone-jbl.png",
+      "PackagePath": "staticwebassets\\assets\\images\\headphone-jbl.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id11-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id11-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id11-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id11-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id12-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id12-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id12-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id12-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id13-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id13-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id13-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id13-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id2-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id2-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id2-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id2-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id3-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id3-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id3-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id3-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id4-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id4-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id4-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id4-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id4-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id4-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id5-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id5-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id5-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id5-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id5-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id5-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id8-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id8-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id8-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id8-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id9-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id9-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\id9-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\id9-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\ipad-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ipad-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\ipad-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ipad-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\ipad-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ipad-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\lenovo-wire.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lenovo-wire.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\login-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\login-shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\login-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\login-shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\login-shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\login-shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\login-shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\login-shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\mobile-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mobile-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\mobile-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mobile-5.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\mobile-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mobile-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\pc-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pc-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\plane.png",
+      "PackagePath": "staticwebassets\\assets\\images\\plane.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\product-banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\product-banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\signature.png",
+      "PackagePath": "staticwebassets\\assets\\images\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-img-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-img-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-img-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\slider-shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\sony.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sony.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\subscribe-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\subscribe-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\subscribe-shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\subscribe-shape-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-shape-6.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\subscribe-shape.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\subscribe-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\tablet-slider-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tablet-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\tablet-slider-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tablet-slider-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\tablet-slider-offer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tablet-slider-offer.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\user-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\user-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\user-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\watch-9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch-9.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\images\\watch-category.png",
+      "PackagePath": "staticwebassets\\assets\\images\\watch-category.png"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\js\\cart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\js\\product-detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\product-detail.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\js\\wishlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\blog\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\blog\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\blog\\blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\blog\\blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\blog\\blog.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\blog\\blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\cart\\cart.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\cart\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\cart\\cart.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\cart\\cart.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\cart\\cart.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\cart\\cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\contact\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\contact\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\contact\\contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\contact\\contact.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\contact\\contact.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\contact\\contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\home\\home.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\home\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\home\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\home\\home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\home\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\home\\home.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\login\\login.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\login\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\login\\login.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\login\\login.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\login\\login.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\login\\login.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\product-detail\\product-detail.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\product-detail\\product-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\product-detail\\product-detail.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\product-detail\\product-detail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\product-detail\\product-detail.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\product-detail\\product-detail.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\register\\register.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\register\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\register\\register.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\register\\register.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\register\\register.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\register\\register.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\shop\\shop.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\shop\\shop.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\shop\\shop.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\shop\\shop.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\shop\\shop.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\shop\\shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\wishlist\\wishlist.css",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\wishlist\\wishlist.css"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\wishlist\\wishlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\wishlist\\wishlist.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FX706HE\\Desktop\\FrontProjectASP\\FrontProjectASP\\FrontProjectASP\\wwwroot\\assets\\sass\\pages\\wishlist\\wishlist.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\pages\\wishlist\\wishlist.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FrontProjectASP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FrontProjectASP.props",
+      "PackagePath": "build\\FrontProjectASP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FrontProjectASP.props",
+      "PackagePath": "buildMultiTargeting\\FrontProjectASP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FrontProjectASP.props",
+      "PackagePath": "buildTransitive\\FrontProjectASP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

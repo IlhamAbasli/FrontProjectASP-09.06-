@@ -1,0 +1,107 @@
+﻿@model ProductEditVM
+
+@section js {
+    <script src="~/admin/js/ProductEdit.js"></script>
+    <script src="https://kit.fontawesome.com/83dcd321a4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
+
+@section css {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header text-success">
+            <strong>Edit product</strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Edit" method="post" class="" enctype="multipart/form-data">
+                <div class="form-group">
+                    <span class="text-danger" asp-validation-for="ProductName"></span>
+                    <input asp-for="ProductName" class="form-control mb-4" placeholder="Product name...">
+
+
+                    <span class="text-danger" asp-validation-for="ProductDescription"></span>
+                    <input asp-for="ProductDescription" class="form-control mb-4" placeholder="Product description...">
+
+
+                    <span class="text-danger" asp-validation-for="ProductPrice"></span>
+                    <input asp-for="ProductPrice" class="form-control mb-4" type="number" min="0" step="any" placeholder="Product price...">
+
+                    <input asp-for="DiscountPrice" class="form-control mb-4" type="number" min="0" step="any" placeholder="Discount price...">
+
+
+                    <label>Product Category</label>
+                    <select class="form-control mb-3" asp-for="CategoryId" asp-items="@ViewBag.categories">
+                    </select>
+
+                    <label>Product Status</label>
+                    <select class="form-control mb-3" asp-for="StatusId" asp-items="@ViewBag.statuses">
+                    </select>
+
+                    <label>Product Images</label>
+                    <div class="product-images">
+                        <div class="edit-image main-image" data-id="@Model.ExistImages.FirstOrDefault(m => m.IsMain).Id" data-product-id="@Model.ExistImages.FirstOrDefault(m => m.IsMain).ProductId">
+                            <img src="~/assets/images/@Model.ExistImages.FirstOrDefault(m=>m.IsMain).Image" />
+                            <div class="product-action">
+                                <ul>
+                                    <li>
+                                        <a href="" class="make-main">
+                                            <i class="fa-solid fa-anchor text-success"></i>
+                                            <span class="tooltip-text">Make main image</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="remove-image">
+                                            <i class="fa-solid fa-trash text-danger"></i>
+                                            <span class="tooltip-text">Remove image</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        @foreach (var item in Model.ExistImages.Where(m => !m.IsMain).ToList())
+                        {
+                            <div class="edit-image" data-id="@item.Id" data-product-id="@item.ProductId">
+                                <img src="~/assets/images/@item.Image" />
+                                <div class="product-action">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="make-main">
+                                                <i class="fa-solid fa-anchor text-success"></i>
+                                                <span class="tooltip-text">Make main image</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="remove-image">
+                                                <i class="fa-solid fa-trash text-danger"></i>
+                                                <span class="tooltip-text">Remove image</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                        <div class="upload-container">
+                            <label class="upload-button">
+                                <input asp-for="NewImages">
+                            </label>
+                        </div>
+                        <span class="text-danger d-block" asp-validation-for="NewImages"></span>
+                    </div>
+
+                    @* <input asp-for="Images" class="form-control mb-2"> *@
+
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Submit
+                </button>
+                <a type="reset" asp-action="Index" class="btn btn-danger btn-sm">
+                    <i class="fa fa-ban"></i> Reset
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+﻿@model ProductDetailVM
+
+<div class="container">
+    <div class="create-category">
+        <a asp-action="Create" class="btn btn-success text-white mb-3 mx-3">Create</a>
+    </div>
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>@Model.ProductName</td>
+                        <td>@Model.ProductDescription</td>
+                        <td>@Model.Price</td>
+                        <td>@Model.Category</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="product-images justify-content-center">
+        @foreach (var item in Model.ProductImages)
+        {
+            <div class="edit-image bg-light">
+                <img src="~/assets/images/@item.Image"/>
+            </div>
+        }
+    </div>
+</div>
+
